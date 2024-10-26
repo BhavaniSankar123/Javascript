@@ -48,10 +48,6 @@ button:hover{
   margin-top: 10px;
   color: white;
 }
-.game{
-  height: 80%;
-  width: 80%;
-}
 
 #main{
     display: flex;
