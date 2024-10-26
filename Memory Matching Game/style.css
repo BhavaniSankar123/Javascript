@@ -132,4 +132,12 @@ button:hover{
     color:red;
     font-size: large;
   }
- 
+
+@media (max-width: 600px) {
+    body{
+        margin-left:20px;
+    }
+    #main{
+        margin-left:20px;
+    }
+}
