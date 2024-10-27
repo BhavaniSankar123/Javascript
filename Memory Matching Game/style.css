@@ -164,5 +164,6 @@ button:hover{
    }
    .instructions{
     font-size: medium;
+    width:350px;
    }
  }
