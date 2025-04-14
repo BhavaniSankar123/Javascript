@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body >
+    <header>
+        <h2>TODO LIST</h2>
+        <form id="new-task">
+            <input type="text" name="new-input" id="new-input" placeholder="Add Task..."/>
+            <button onclick=AddTask() id="new-submit" defer>ADD TASK</button>
+            <input type="button" id="clear" value="CLEAR"/>
+        </form>
+        
+    </header>
+    <main>
+        <section class="task-list">
+            <div id="tasks">
+                <!-- Tasks here -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js" defer></script>
+</body>
+</html>
