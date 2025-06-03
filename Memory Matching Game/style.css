@@ -25,7 +25,7 @@ h2 {
 
 .level {
   display: inline;
-  margin-left: 50px;
+  margin: 10px;
   padding: 5px;
   color: blue;
   background-color: white;
